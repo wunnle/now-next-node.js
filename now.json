@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "name": "now-next-and-node.js",
+  "builds": [
+    { "src": "package.json", "use": "@now/next" },
+    { "src": "api/**/*.js", "use": "@now/node" }
+  ]
+}
